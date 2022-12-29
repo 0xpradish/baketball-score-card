@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Verdana';
+    color: white;
+}
+
+.project-sc {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.score-card {
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    justify-content: space-evenly;
+    background: #1b244a;
+    border-radius: 20px;
+}
+
+.home-sc {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.guest-sc {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.gbtns {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.hbtns {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.gbtn1,
+.gbtn2,
+.gbtn3,
+.hbtn1,
+.hbtn2,
+.hbtn3 {
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    color: #9AABD8;
+
+
+}
+
+.gs,
+.hs {
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+}
